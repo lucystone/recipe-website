@@ -4210,7 +4210,7 @@ meta.foundation-mq-topbar {
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid {
   width: 100%;
-  background: #333333; }
+  background: #537428; }
   .contain-to-grid .top-bar {
     margin-bottom: 0; }
 
@@ -4238,7 +4238,7 @@ meta.foundation-mq-topbar {
   height: 45px;
   line-height: 45px;
   position: relative;
-  background: #333333;
+  background: #537428;
   margin-bottom: 0; }
   .top-bar ul {
     margin-bottom: 0;
@@ -4314,7 +4314,7 @@ meta.foundation-mq-topbar {
     height: auto;
     background: transparent; }
     .top-bar.expanded .title-area {
-      background: #333333; }
+      background: #537428; }
     .top-bar.expanded .toggle-topbar a {
       color: #888888; }
       .top-bar.expanded .toggle-topbar a::after {
@@ -4334,7 +4334,7 @@ meta.foundation-mq-topbar {
     margin: 0; }
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
-    border-top: solid 1px #1a1a1a;
+    border-top: solid 1px #2a3a14;
     clear: both;
     height: 1px;
     width: 100%; }
@@ -4420,14 +4420,14 @@ meta.foundation-mq-topbar {
       .top-bar-section ul li > button.alert:hover, .top-bar-section ul li > button.alert:focus {
         color: white; }
   .top-bar-section ul li:hover:not(.has-form) > a {
-    background: #272727;
+    background: #537428;
     color: white; }
   .top-bar-section ul li.active > a {
     background: #008cba;
     color: white; }
     .top-bar-section ul li.active > a:hover {
       background: #0078a0;
-      color: white; }
+      color: #daac60; }
   .top-bar-section .has-form {
     padding: 15px; }
   .top-bar-section .has-dropdown {
@@ -4500,7 +4500,7 @@ meta.foundation-mq-topbar {
 
 @media only screen and (min-width: 40.063em) {
   .top-bar {
-    background: #333333;
+    background: #537428;
     *zoom: 1;
     overflow: visible; }
     .top-bar:before, .top-bar:after {
@@ -4521,7 +4521,7 @@ meta.foundation-mq-topbar {
       position: relative;
       top: 7px; }
     .top-bar.expanded {
-      background: #333333; }
+      background: #537428; }
 
   .contain-to-grid .top-bar {
     max-width: 62.5rem;
@@ -4540,14 +4540,14 @@ meta.foundation-mq-topbar {
         .top-bar-section ul li .js-generated {
           display: none; }
     .top-bar-section li.hover > a:not(.button) {
-      background: #272727;
+      background: #537428;
       color: white; }
     .top-bar-section li:not(.has-form) a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
-      background: #333333; }
+      background: #537428; }
       .top-bar-section li:not(.has-form) a:not(.button):hover {
-        background: #272727; }
+        background: #537428; }
     .top-bar-section li.active:not(.has-form) a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
@@ -4611,12 +4611,12 @@ meta.foundation-mq-topbar {
     .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
       border-bottom: none;
       border-top: none;
-      border-right: solid 1px #4e4e4e;
+      border-right: solid 1px #6b9634;
       clear: none;
       height: 45px;
       width: 0; }
     .top-bar-section .has-form {
-      background: #333333;
+      background: #537428;
       padding: 0 15px;
       height: 45px; }
     .top-bar-section .right li .dropdown {
@@ -4631,7 +4631,7 @@ meta.foundation-mq-topbar {
         left: 100%; }
 
   .no-js .top-bar-section ul li:hover > a {
-    background: #272727;
+    background: #537428;
     color: white; }
   .no-js .top-bar-section ul li:active > a {
     background: #008cba;
@@ -5543,7 +5543,6 @@ textarea {
   color: #222; }
 
 html {
-  font-size: 1em;
   line-height: 1.4; }
 
 ::-moz-selection {
@@ -5561,12 +5560,6 @@ hr {
   border-top: 1px solid #ccc;
   margin: 1em 0;
   padding: 0; }
-
-audio,
-canvas,
-img,
-video {
-  vertical-align: middle; }
 
 fieldset {
   border: 0;
@@ -5591,40 +5584,127 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative; }
 
-nav {
-  text-align: center;
-  color: black;
-  font-family: myriad pro; }
-
-nav ul {
-  padding-left: 0;
-  margin-left: 0; }
-
-nav ul li {
-  display: inline;
-  font-size: 20px;
-  padding: 30px; }
-
-nav ul a {
-  padding: 0.2em 1em;
-  color: #537428;
-  text-decoration: none; }
-
-nav ul a:hover {
-  text-decoration: underline;
-  color: #DAAC60; }
+#navlist {
+  padding: 6px;
+  margin: 0 auto;
+  border: 2px white solid;
+  outline-width: thick;
+  outline-color: #537428; }
 
 .header {
   width: 800px; }
 
 .splash {
-  width: 750px;
+  width: 45%;
   margin: 0 auto; }
 
-.blurb {
-  width: 150px; }
+.title {
+  width: 650px;
+  margin: 20px auto; }
+  .title h4 {
+    color: #E00000;
+    font-family: futura; }
+
+.green-bar {
+  background-color: #537428;
+  height: 155px;
+  width: 890px;
+  margin: 20px auto; }
+
+.image {
+  padding-top: 10px;
+  text-align: center; }
+
+.copyright {
+  height: 20px; }
+  .copyright p {
+    text-align: center;
+    font-family: myriad pro;
+    font-size: 11px;
+    margin-top: 40px; }
+
+.footer-nav {
+  text-align: center; }
+
+.footer-nav ul li {
+  display: inline;
+  font-size: 12px;
+  font-color: black; }
+
+.footer-nav ul a:hover {
+  color: #DAAC60; }
+
+.links {
+  width: 280px;
+  margin: 20px auto; }
+  .links div.row {
+    height: 30px;
+    margin: 0 auto; }
+
+.icon-container {
+  text-align: center;
+  margin-top: 100px;
+  height: 100px; }
+
+.icons {
+  text-align: center;
+  height: 100%;
+  width: 100%; }
+
+/** recipes categories page **/
+.categories {
+  width: 600px;
+  margin: 90px auto; }
+
+.red {
+  width: 600px;
+  margin: 20px auto;
+  padding: 20px; }
+  .red h4 {
+    color: red; }
+
+.box1 {
+  padding-bottom: 50px; }
+
+.copyright {
+  height: 20px; }
+  .copyright p {
+    text-align: center;
+    font-family: myriad pro;
+    font-size: 11px;
+    margin-top: 40px; }
+
+.bottom-nav {
+  text-align: center; }
+
+.bottom-nav ul li {
+  display: inline;
+  font-size: 12px;
+  font-color: black; }
+
+.bottom-nav ul a:hover {
+  color: #DAAC60; }
+
+.bottom-links {
+  width: 280px;
+  margin: 20px auto; }
+  .bottom-links div.row {
+    height: 30px;
+    margin: 0 auto; }
+
+.icon-container {
+  text-align: center;
+  margin-top: 20px;
+  height: 100%;
+  width: 100%; }
+
+.icons {
+  text-align: center;
+  height: 100%;
+  width: 100%; }
 
 /* ==========================================================================
    Media Queries

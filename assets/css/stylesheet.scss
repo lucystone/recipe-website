@@ -13,7 +13,7 @@ textarea {
 }
 
 html {
-    font-size: 1em;
+   
     line-height: 1.4;
 }
 
@@ -40,7 +40,7 @@ audio,
 canvas,
 img,
 video {
-    vertical-align: middle;
+   
 }
 
 fieldset {
@@ -72,55 +72,232 @@ background: url(../img/background.jpg) no-repeat center center fixed;
     -o-background-size:cover;
     background-size:cover;
     margin: 0 auto;
+    position:relative;
  
 }
 
 
-nav {
-  text-align: center;
-  color:black;
-  font-family: myriad pro;
+#navlist{
+padding:6px;
+margin:0 auto;
+border:2px white solid;
+outline-width:thick;
+outline-color:#537428;
+
+}
+
+
+// nav {
+//   text-align:right;
+//   font-family:myriad pro;
+//   width:90%;
+//  position:absolute; top: 50px; left: 100px;
+
+ 
+// }
+
+// nav ul{
   
- 
+//   margin-left:0;
+//   background-color:#537428;
+//   height:10%;
+//   width:80%;
+  
+// }
 
-}
+// nav ul li {
+//   display:inline;
+//   font-size:15px;
+//   margin:10px;
+//   padding-right:60px;
+  
+//  }
 
-nav ul{
-  padding-left:0;
-  margin-left:0;
+// nav ul a {
+//   padding:20px;
+//   color:#FFF;
+//   text-decoration:none;
+  
+// }
 
-
-}
-
-nav ul li {
-  display:inline;
-  font-size:20px;
-  padding: 30px;
-}
-
-nav ul a {
-  padding:0.2em 1em;
-  color:#537428;
-  text-decoration:none;
-}
-nav ul a:hover {
-  text-decoration:underline;
-  color:#DAAC60;
-}
+// nav ul a:hover {
+// color:#DAAC60;
+// }
 
 
 .header{
  width:800px;   
 }
 
+
 .splash{
-  width:750px;
+  width:45%;
   margin:0 auto;
 }
+  
+.title{
+ width:650px;
+ margin:20px auto;
 
-.blurb {
-width: 150px;  
+ h4{
+color:#E00000;
+font-family:futura;
 }
+}
+
+
+
+
+
+.green-bar{
+background-color:#537428;
+height:155px;
+width:890px;
+margin:20px auto;  
+}
+
+
+.image{
+padding-top:10px;
+text-align:center;
+}
+
+
+
+.copyright{
+height:20px;
+
+p{
+text-align:center;
+font-family:myriad pro;
+font-size:11px;
+margin-top:40px;
+}
+}
+
+
+.footer-nav{
+text-align:center;
+}
+
+
+.footer-nav ul li{
+display:inline;
+font-size:12px;
+font-color:black;
+
+}
+
+.footer-nav ul a:hover {
+color:#DAAC60;
+}
+
+
+.links{
+width:280px;
+margin:20px auto;
+
+div.row{
+height:30px;
+margin:0 auto;
+
+}
+}
+
+.icon-container{
+text-align:center;
+margin-top:100px;
+height:100px;
+}
+
+.icons{
+text-align:center;
+height:100%;
+width:100%;
+}
+
+/** recipes categories page **/
+
+.categories{
+width: 600px;
+margin:90px auto;
+}
+
+.red{
+width:600px;
+margin:20px auto;
+padding:20px;
+h4{
+color:red;
+}
+}
+
+
+.box1{
+padding-bottom:50px;
+}
+
+.bottom{
+
+}
+
+.copyright{
+height:20px;
+
+p{
+text-align:center;
+font-family:myriad pro;
+font-size:11px;
+margin-top:40px;
+}
+}
+
+
+.bottom-nav{
+text-align:center;
+}
+
+
+.bottom-nav ul li{
+display:inline;
+font-size:12px;
+font-color:black;
+
+}
+
+.bottom-nav ul a:hover {
+color:#DAAC60;
+}
+
+
+.bottom-links{
+width:280px;
+margin:20px auto;
+
+div.row{
+height:30px;
+margin:0 auto;
+
+}
+}
+
+.icon-container{
+text-align:center;
+margin-top:20px;
+height:100%;
+width:100%;
+}
+
+.icons{
+text-align:center;
+height:100%;
+width:100%;
+}
+
+
+
+
+
 
 
 

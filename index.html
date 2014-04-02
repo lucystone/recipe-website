@@ -15,6 +15,8 @@
 
         <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
+    
+
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -23,55 +25,142 @@
        
     
 
-        
-<nav>
-    <ul id="navlist">
-        <li id="active"><a href="#" id="current">Recipes</a></li>
-        <li><a href="#">Stories</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-</nav>
+  
+    <div class="row">
+        <div class="small-10 small-centered columns">
+            <div class="row">
+                <div class="small-2 small-offset-1 columns">
+                    logo
+                </div>
+                <div class="small-9 columns">
+                    <nav class="top-bar" data-topbar>
+                      <ul class="title-area">
+                        <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+                      </ul>
 
+                      <section class="top-bar-section">
+                        <!-- Left Nav Section -->
+                        <ul class="left">
+                            <li class="has-dropdown">
+                                <a href="#">Recipes</a>
+                                <ul class="dropdown">
+                                  <li><a href="#">Breakfast</a></li>
+                                  <li><a href="#">Lunch</a></li>
+                                  <li><a href="#">Dinner</a></li>
+                                  <li><a href="#">Dessert</a></li>
+                                </ul>
+                              </li>
+                            <li>
+                                <a href="#">Stories</a>
+                            </li>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
 
-<section="header">
-<div class="splash">
-<img src="assets/img/main.jpg">
-   <div class"blurb">
-    Jarret uses only the freshest of Ingedients. His kitchen does not have a freezer as all vegetables and meat are 
-    delivered and cooked the same day. Feel free to use and share his recipes and passion for cooking.
+                        </ul>
+                      </section>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
     </div>
-</div>
 
-</section>
-
+    
 
 
+    <section="header">
+        <div class="splash">
+            <img src="assets/img/main.jpg">
+        </div>
+    </section> 
 
 
+    <div class="title">
+       <h4>Today's Recipes</h4>
+    </div>
+  
 
 
+    <section class="green-bar">
+
+       <div class="row">
+          
+            <div class="small-4 columns">
+                <div class="image">
+                    <img src="assets/img/lunch-images/cauliflower.jpg">
+                 </div>
+            </div>
+            
+           
+            <div class="small-4 columns">
+                <div class="image">
+                    <img src="assets/img/lunch-images/lamb.jpg">
+                </div>
+            </div>
+
+        
+            <div class="small-4 columns">
+                <div class="image">
+                    <img src="assets/img/lunch-images/pie.jpg">
+                </div>
+            </div>
+        </div>
+
+     </section>
 
 
+     
 
 
+    <section class="footer">
+    
+            <div class="copyright">
+               <p>Copyright 2014 J.I.M Designs all rights reserved</p>
+            </div>
+       
+
+       
+
+        <div class="footer-nav">   
+            <ul>
+                <li id="active"><a href="#" id="current">All Recipes</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Legal Notices</a></li>
+                 <li><a href="#">Site Map</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
 
 
+        <div class="links">
+            <div class="row">
+
+                <div class="small-4 columns">
+                    <div class="icon-container">
+                       <img class="icons" src="assets/img/video.svg">
+                    </div>
+                </div>
+
+                <div class="small-4 columns">
+                    <div class="icon-container">
+                        <img class="icons" src="assets/img/facebook.svg">
+                    </div>
+                </div>
+
+                <div class="small-4 columns">
+                    <div class="icon-container">
+                        <img class="icons" src="assets/img/twitter.svg">
+                    </div>
+                </div>
+        </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </section>
 
 
 
@@ -79,6 +168,9 @@
         <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
 
         <script src="assets/js/main.js"></script>
+
+
+
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
@@ -89,8 +181,13 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
-
- 
-
+       
+       
+        <script src="assets/js/foundation.js"></script>
+        <script src="assets/js/foundation.topbar.js"></script>
+        
+        <script>
+           $(document).foundation();
+        </script>
     </body>
 </html>
