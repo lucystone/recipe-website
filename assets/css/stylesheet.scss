@@ -65,27 +65,48 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+@font-face{ 
+    font-family: 'MyWebFont';
+    src: url('gravity-light-webfont.eot');
+    src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+         url('gravity-light-webfont.woff') format('woff'),
+         url('gravity-light-webfont.ttf') format('truetype'),
+         url('gravity-light-webfont.svg') format('svg');
+}
+
+
+
 body {
-background: url(../img/background.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size:cover;
-    margin: 0 auto;
-    position:relative;
- 
-}
-
-
-#navlist{
-padding:6px;
+background-colour:#DDDDDD;
 margin:0 auto;
-border:2px white solid;
-outline-width:thick;
-outline-color:#537428;
+position:relative;
 
+
+
+.nav-row{
+    background-color:#537428;
+    position:relative;
+    padding: 2px;
+
+    .logo{
+        position: absolute;
+        top: -48px;
+        left: 49px;
+        height: 140px;
+    }
 }
 
+
+.bordered {
+    border: 1px solid white;
+    padding-left:250px;
+}
+
+.top{
+    position:absolute; top: 50px; left: 390px;
+    width:1000px;
+}
 
 // nav {
 //   text-align:right;
@@ -125,59 +146,86 @@ outline-color:#537428;
 // }
 
 
+
+
+
 .header{
- width:800px;   
+ width:600px;   
 }
 
 
 .splash{
-  width:45%;
-  margin:0 auto;
-}
+  width:700px;
+  margin:20px auto;
   
+}
+ 
+.blurb{
+width:600px;
+margin:0 auto;
+
+    p{
+    text-align:center;
+    }
+}
+
+
+
 .title{
  width:650px;
  margin:20px auto;
 
- h4{
-color:#E00000;
-font-family:futura;
+
+     h4{
+    color:#E00000;
+    font-family:futura;
+    }
 }
-}
-
-
-
 
 
 .green-bar{
 background-color:#537428;
-height:155px;
-width:890px;
-margin:20px auto;  
+width:40%;
+margin:0px auto;
+padding:2px;
+
 }
+
+.border{
+border: 1px solid white;
+overflow: hidden;
+}
+
 
 
 .image{
-padding-top:10px;
+padding:10px;
 text-align:center;
-}
 
+    h6{
+    background-color:rgba(221,221,221,0.6);
+    font-family:myriad pro; 
+    text-align:left;
+    padding:3px;
+    }
+}
 
 
 .copyright{
 height:20px;
 
-p{
-text-align:center;
-font-family:myriad pro;
-font-size:11px;
-margin-top:40px;
-}
+    p{
+    text-align:center;
+    font-family:gravity light;
+    font-size:11px;
+    margin-top:40px;
+    }
 }
 
 
 .footer-nav{
 text-align:center;
+font-family:gravity light;
 }
 
 
@@ -197,11 +245,11 @@ color:#DAAC60;
 width:280px;
 margin:20px auto;
 
-div.row{
-height:30px;
-margin:0 auto;
+    div.row{
+    height:30px;
+    margin:0 auto;
 
-}
+    }
 }
 
 .icon-container{
@@ -214,42 +262,58 @@ height:100px;
 text-align:center;
 height:100%;
 width:100%;
+margin-bottom:10px;
 }
 
 /** recipes categories page **/
 
-.categories{
-width: 600px;
-margin:90px auto;
-}
-
 .red{
-width:600px;
+width:700px;
 margin:20px auto;
 padding:20px;
-h4{
-color:red;
-}
+
+    h4{
+    color:#E00000;
+    padding-left:20px;
+    padding-top:10px;
+    font-family:myriad pro;
+    }
 }
 
+
+.categories {
+width:700px;
+margin:0 auto;
+font-family:myriad pro;
+}
 
 .box1{
 padding-bottom:50px;
+padding-left:15px;
+width:100%;
 }
 
-.bottom{
+.box2{
+padding-left:15px;
+}
+
+.food-labels {
+background-color:#DDDDDD;
+height:30px;
+width:100%;
+font-size:15px;
 
 }
 
 .copyright{
 height:20px;
 
-p{
-text-align:center;
-font-family:myriad pro;
-font-size:11px;
-margin-top:40px;
-}
+    p{
+    text-align:center;
+    font-family:myriad pro;
+    font-size:11px;
+    margin-top:40px;
+    }
 }
 
 
@@ -270,15 +334,17 @@ color:#DAAC60;
 }
 
 
+
+
 .bottom-links{
 width:280px;
 margin:20px auto;
 
-div.row{
-height:30px;
-margin:0 auto;
+    div.row{
+    height:30px;
+    margin:0 auto;
 
-}
+    }
 }
 
 .icon-container{
@@ -286,23 +352,63 @@ text-align:center;
 margin-top:20px;
 height:100%;
 width:100%;
+
 }
 
 .icons{
 text-align:center;
 height:100%;
 width:100%;
+margin-bottom:10px;
+}
+
+
+/** Seafood Page **/
+
+.red{
+width:700px;
+margin:20px auto;
+padding:20px;
+
+    h4{
+    color:#E00000;
+    padding-left:15px;
+    font-family:futura;
+    }
+}
+
+
+.seafood-labels {
+background-color:#DDDDDD;
+height:30px;
+width:100%;
+position:relative;
+}
+
+h5{
+font-family:myriad pro;    
+}
+ 
+
+.rating{
+content: "\2605";
+
+}
+
+.rating{
+position:absolute;
+
 }
 
 
 
 
+/** Ingredients page **/
 
+.meal-box{
+padding-left:50px;
 
-
-
-
-
+}
 
 
 
@@ -450,4 +556,5 @@ width:100%;
     h3 {
         page-break-after: avoid;
     }
+}
 }
